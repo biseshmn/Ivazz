@@ -1,0 +1,41 @@
+.recents{
+    padding: 30px 48px;
+    height: auto;
+}
+
+
+.recents .secTitle h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin: 20px 0;
+}
+
+.recents .subTitle h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin: 20px 0 0;
+}
+
+.recentblog h4{
+    transition: .3s ease-in-out;
+}
+.recentblog:hover h4{
+    color: #02aeef !important;
+}
+
+.recentblog p{
+    font-size: 16px;
+}
+
+.blogimg{
+    height: 240px;
+    overflow: hidden;
+}
+
+.blogimg img{    
+    width: 100%;
+    object-fit: cover;
+    height: 240px;
+}

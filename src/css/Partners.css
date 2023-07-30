@@ -1,0 +1,39 @@
+.partners{
+    padding: 30px 48px;
+    height: auto;
+}
+.partners .secTitle h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333 !important;
+    margin: 20px 0;
+}
+
+.partners .subTitle h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555 !important;
+    margin: 20px 0 0;
+}
+
+.partner-logo{
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    border: .1px #ada9a9 solid;
+    min-height: 100px;
+}
+.partner-logo img{
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.seemore{
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

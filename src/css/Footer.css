@@ -1,0 +1,96 @@
+.widget-footer{
+    padding: 50px 0;
+    color: rgba(255,255,255,.75);
+    background-color: #282828;
+    border-top-color: rgba(255,255,255,.15);
+}
+
+
+.widget-footer .mapbg{
+    background: url("https://ivazz.com/wp-content/themes/ivazz/assests/imgs/world-map.webp") center center no-repeat;
+    --darkreader-inline-bgcolor: 'initial'
+}
+
+.widget-footer .widget .textwidget{
+    color: #eee !important;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.widget-footer .widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.widget-footer .widget ul li {
+    padding: 5px 0;
+}
+
+.widget-footer .widget .menu li:before {
+    content: "\f054";
+    font-family: 'Font Awesome 5 Pro';
+    height: 10px;
+    width: 10px;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.social-media{
+    margin-top: 1.5rem
+}
+
+.social-media ul{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.social-media ul li a{
+    color: white;
+}
+.social-media ul li{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.social-media ul li:nth-child(1){
+    background-color: #02aeef;
+}
+
+.social-media ul li:nth-child(2){
+    background-color: #5da9dd;
+}
+
+.social-media ul li:nth-child(3){
+    background-color: #0a66c2;
+}
+
+
+
+.belowFooter {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+.belowFooter p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+.belowFooter a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px #eee dotted;
+    font-size: 14px;
+}
+
+@media screen and (min-width:767px) {
+    .termsofuse{
+        text-align: right !important;
+    }
+}

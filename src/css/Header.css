@@ -1,0 +1,125 @@
+.main-header{
+    display: flex;
+    justify-content: center;
+    padding: 0rem 2rem;
+    border-bottom: #ffffff49 1px solid;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    background-color: transparent;
+    transition: .3s;
+}
+
+
+
+.logo {
+
+    border-right: 1px solid white;
+    padding: 10px 3%;
+}
+.logo img{
+    height: 80px;
+    transition: .3s;
+}
+
+
+.headertabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid white;
+    padding: 0 2.3%;
+    gap: 2rem;
+}
+.headertabs .tabs{
+    padding: 10px 15px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.headertabs .dropbtn{
+    font-size: 35px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+.phonedetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+    gap: 5rem;
+    padding: 0 3%;
+    border-right: 1px solid white;
+}
+.phonedetail .btn{
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+}
+.phonedetail .btn img{
+    width: 100%;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+
+.searchtab {
+    color: white;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+}
+.searchtab i{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:1301px){
+    .logo {
+        padding: 10px 1%;
+    }
+
+    .headertabs {
+        padding: 0 1%;
+    }
+    .headertabs .tabs{
+        padding: 10px 15px;
+    }
+
+    .phonedetail{
+        padding: 0 2%;
+    }
+}
+
+@media screen and (max-width:1175px){
+    .headertabs .tabs{
+        padding: 10px 8px;
+    }
+}
+
+@media screen and (max-width:1035px){
+    .headertabs .tabs{
+        padding: 10px 3px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .headertabs{
+        flex: 1;
+        justify-content:start;
+    }
+    .headertabs .tabs, .phno{
+        display: none;
+    }
+
+    .dropbtn{
+        display: block !important;
+    }
+}

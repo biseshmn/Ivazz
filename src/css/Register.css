@@ -1,0 +1,191 @@
+.register{
+    padding: 30px 48px;
+    height: auto;
+}
+
+
+.register .secTitle h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333 !important;
+    margin: 20px 0;
+}
+
+.register .subTitle h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555 !important;
+    margin: 20px 0 0;
+}
+
+.register .input-group{
+    width: 40%;
+    height: 55px;
+}
+.register .input-group input{
+    border-radius: 35px 0 0 35px;
+    border-bottom: 7px #ded7d7 solid;
+}
+.register .input-group .btn{
+    border-radius: 0 35px 35px 0;
+    z-index: 0 !important;
+}
+
+.addons{
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+}
+.addons .subTitle h4{
+    color: black !important;
+}
+
+
+.addons ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 20px auto;
+}
+.addons ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    width: 25%;
+    font-size: .9rem;
+    margin: 5px 0;
+    position: relative;
+}
+.addons ul li:before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    content: "\f00c";
+    position: absolute;
+    left: -20px;
+}
+
+@media screen and (max-width:1212px) {
+    .addons ul {
+        width: 90%;
+    }
+}
+@media screen and (max-width:855px) {
+    .addons{
+        display: flex;
+        justify-content: center;
+    }
+    .addons ul {
+        display: block;
+    }
+    .addons ul li {
+        width: 100%;
+    }
+
+    .register .input-group{
+        width: 95%;
+        height: 55px;
+    }
+}
+
+
+
+
+.pricerange{
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+    width: 85%;
+    padding: 0;
+}
+.pricerange .domainprice{
+    padding: 1.2rem 0.5rem;
+    border-right: 1px solid #bfb4b4;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.pricerange .domaintitle{
+    position: relative;
+    border-right: none;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #02aeef;
+}
+.pricerange .domaintitle:after{
+    content: "\f0da";
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    top: 0rem;
+    right: -1.4rem;
+    color: #02aeef;
+    font-size: 70px;
+
+}
+.pricerange .domainprice:last-child{
+    border-right: none;
+}
+
+
+
+.hosting{
+    border: 1px #eee solid;
+    -webkit-box-shadow: 0 0 20px #eee;
+    box-shadow: 0 0 20px #eee;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.hosting:hover{
+    background-color: #02aeef;
+}
+.hosting:hover .hostingdetail p{
+    color: white;
+}
+.hosting:hover .hostingdetail h5{
+    color: white;
+}
+.hosting:hover .hostingdetail h6{
+    color: black !important;
+}
+
+.hosting .hostingmain{
+    border-bottom: 4px #2746a1 solid;
+    padding-bottom: 15px;
+}
+
+.hostingmainicon{
+    border-radius: 50%;
+    border: 4px solid #eee;
+    width: 118px;
+    height: 118px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 20px auto;
+    background: #fff;
+}
+.hostingmainicon img{
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+}
+
+
+.hostingdetail{
+    padding: 15px;
+}
+.hostingdetail p{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:991px){
+    .pricerange{
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.carousel {
+    margin-top: -101px;
+    z-index: 0;
+}
+
+
+.carousel-item img{
+    height: 720px;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: .5s ease-in-out;
+}
